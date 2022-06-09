@@ -7,6 +7,7 @@
         "php": ">=8.0.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "symfony/cache": "6.0.*",
         "symfony/console": "*",
         "symfony/dotenv": "*",
         "symfony/flex": "^2",
@@ -15,6 +16,7 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
+        "symfony/maker-bundle": "^1.43"
     },
     "config": {
         "allow-plugins": {
