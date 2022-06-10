@@ -56,8 +56,7 @@ class Card implements CardInterface
         $cachedCard = $cache->getItem('cards');
 
         if ($cachedCard->isHit()) {
-            /** @var $cachedCard CardModel[] */
-            return $cachedCard;
+            return $cachedCard->get();
         }
 
         $data = [];
