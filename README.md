@@ -1,15 +1,16 @@
 ## Installation
 
-CD to the project location using terminal and run:
+CD to the project location using terminal and run for installation:
 
 ### `make build`
 
-Runs the app in the development mode.\
-Open [http://localhost:8000](http://localhost:8000) to start.
+To run the app in the development mode:
 
 ### `make start`
 
-To stop simply terminate the app.
+Open [http://localhost:8000](http://localhost:8000) to start.
+
+To simply terminate the app:
 
 ### `make stop`
 
