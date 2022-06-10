@@ -29,7 +29,7 @@ class Card implements CardInterface
             // If the player count exceeded number of cards
             // Player is still included in the list but with empty card.
             if (empty($cardNumbers)) {
-                $cardsPerPlayers[$playerNumber][] = [];
+                $cardsPerPlayers[$playerNumber] = [];
 
                 continue;
             }
