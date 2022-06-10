@@ -1,5 +1,8 @@
 CONTAINER := playing-cards-service
 
+build:
+	docker-compose build
+
 start:
 	docker-compose up -d
 
